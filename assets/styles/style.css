@@ -1,0 +1,17 @@
+.brand-emblem{
+  display: inline-flex;
+}
+
+#logo-csuf{
+  margin-right: 3%;
+}
+
+#logo-csuf-edu{
+  margin-left: -3%;
+  margin-right: 3%;
+}
+
+#logo-umumbai{
+  margin-left: -7%;
+  margin-right: 4%;
+}
