@@ -15,3 +15,27 @@
   margin-left: -7%;
   margin-right: 4%;
 }
+
+.work-ex{
+  color: white;
+}
+
+.custom-class{
+  height: 500px;
+}
+
+.custom-class h3{
+  margin-top: 5%;
+}
+
+@media(max-width: 486px) {
+
+  .custom-class{
+    height: 400px;
+  }
+
+  .custom-class h3{
+    padding-top: 30px !important;
+  }
+
+}
