@@ -1,0 +1,229 @@
+/* Global */
+
+body{
+    background-color: #181e28;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Navbar */
+#navbarMain a{
+    color: white;
+    text-decoration: none;
+}
+
+.custom-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-color{
+    background-color: #181e28;
+}
+
+.navbar-color a{
+    color: white;
+}
+
+.introduction{
+    color: white;
+    height: 100vh;
+}
+
+.hello{
+    font-size: 45px;
+    margin-top: 14%;
+}
+
+.short-intro{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.work-title, .edu-title, .project-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.shift-content{
+    margin-left: 6%;
+}
+
+.work-dates, .edu-dates{
+    font-size: 1rem;
+}
+
+.work-name, .university-name{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.work-description, .project-description{
+    color: rgba(255,255,255,0.8);
+    font-weight: 200;
+}
+
+.custom-footer{
+    margin-top: 15%;
+}
+
+.exp-head, .edu-head, .project-head{
+    color: #0000FF;
+}
+
+.my-name{
+    font-weight: bold;
+    background: #ffc107;
+    color: #212529;
+    padding: 0% 1% 0% 1%;
+    border-radius: .25rem;
+}
+
+.exp-head > h2, .edu-head > h2, .project-head > h2{
+    font-weight: bolder;
+}
+
+.external-link{
+    color: white;
+    text-decoration: none;
+}
+
+.external-link >i{
+    color: white;
+}
+
+.external-link > i:hover{
+    transition: all .3s ease-in-out;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+#getintouch :hover{
+    transition: all .3s ease-in-out;
+    -webkit-transform: translateX(20px) scale(2.2);
+    transform: translateX(20px) scale(2.2);
+}
+
+#getintouch{
+    color: white;
+    text-decoration: none;
+}
+
+.btext{
+    position: absolute;
+}
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+
+::selection {
+    background: #ffc107;
+    color: #212529;
+}
+::-moz-selection {
+    background: #ffc107;
+    color: #212529;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .hello{
+        font-size: 35px;
+        margin-top: 30%;
+    }
+    
+    .short-intro{
+        font-size: 25px;
+    }
+
+    .introduction{
+        height: 100vh;
+    }
+
+    .custom-footer{
+        text-align: center;
+    }
+
+    .bottom-links{
+        justify-content: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hello{
+        font-size: 35px;
+        margin-top: 3%;
+    }
+    
+    .short-intro{
+        font-size: 25px;
+    }
+
+    .custom-footer{
+        text-align: center;
+    }
+
+    .bottom-links{
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hello{
+        font-size: 45px;
+        margin-top: 25%;
+    }
+    
+    .short-intro{
+        font-size: 35px;
+    }
+
+    .introduction{
+        color: white;
+        height: 100vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hello{
+        font-size: 45px;
+        margin-top: 45%;
+    }
+    
+    .short-intro{
+        font-size: 35px;
+    }
+
+    .position-dates,.degree-dates{
+        display: flex;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .position-dates,.degree-dates{
+        display: flex;
+    }
+}
