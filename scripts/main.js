@@ -42,7 +42,7 @@ $(window).scroll(function() {
         $('.scrolltop').stop(true, true).fadeOut();
     }
 });
-$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".navbar").offset().top},"1000");return false})})
+$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".navbar").offset().top},"1000");return false})});
 
 particlesJS("introduction", {
     "particles": {
@@ -155,3 +155,15 @@ particlesJS("introduction", {
     "retina_detect": true
   });
 });
+
+window.sr = ScrollReveal({
+  reset: false,
+    duration: 600,
+    easing: 'cubic-bezier(.694,0,.335,1)',
+    scale: 1,
+    origin: 'left',
+    mobile: true,
+});
+sr.reveal('.experience');
+sr.reveal('.education');
+sr.reveal('.projects');
