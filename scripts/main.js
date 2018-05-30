@@ -167,3 +167,9 @@ window.sr = ScrollReveal({
 sr.reveal('.experience');
 sr.reveal('.education');
 sr.reveal('.projects');
+
+$(document).ready(function(){
+  $.get('https://notifyvisit.herokuapp.com/notify', function(data){
+    console.log("You are awesome.");
+  })
+})
