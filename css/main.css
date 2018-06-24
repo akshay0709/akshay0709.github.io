@@ -135,6 +135,13 @@ body{
 	-o-transition: 0.5s; 		
 }
 
+.emoji-yo{
+    width: 24px;
+    height: 21px;
+    position: absolute;
+    margin-left: 2%;
+}
+
 ::selection {
     background: #ffc107;
     color: #212529;
