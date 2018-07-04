@@ -162,7 +162,7 @@ window.sr = ScrollReveal({
     easing: 'cubic-bezier(.694,0,.335,1)',
     scale: 1,
     origin: 'left',
-    mobile: true,
+    mobile: false,
 });
 sr.reveal('.experience');
 sr.reveal('.education');

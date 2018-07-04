@@ -86,6 +86,7 @@ body{
 .external-link{
     color: white;
     text-decoration: none;
+    margin-left: 1%;
 }
 
 .external-link >i{
